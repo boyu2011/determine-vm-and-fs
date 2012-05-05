@@ -1,0 +1,8 @@
+The goal of this assignment is to empirically determine the characteristics of memory and file system
+at the linux-lab machines.
+
+Compile the program:
+$ make program
+
+Run the program:
+$./program

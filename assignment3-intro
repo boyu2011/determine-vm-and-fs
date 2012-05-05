@@ -1,0 +1,34 @@
+CS 520
+Assignment 3
+The goal of this assignment is to empirically determine the characteristics of memory and le system
+at the linux-lab machines
+Determine virtual memory characteristics
+Recall the various page replacement algorithms you have learnt. Design, if possible, an experiment to
+determine which page replacement algorithm is being used on the linux lab machines, or explain why
+such a determination can not be made.
+You should provide the rationale behind your experiment design, show detailed experimental results
+(so that your work can be verified), and also explain why your results show that the particular page
+replacement algorithm is being used. 5 marks.
+Hint: you may determine whether a particular memory access results in a page fault or not by
+measuring the time required to complete it. It may take a number of measurements to figure out typical
+delays when page fault happens.
+Determine file system characteristics
+Recall that hard drives usually express a seek time, and a disk bandwidth. Design, if possible, an
+experiment to determine these values for the local disk on linux-lab machines, or explain why such a
+determination can not be made.
+You should provide the rationale behind your experiment design, show detailed experimental results
+(so that your work can be verified), and also explain why your results show the disk has the given
+characteristics. 5 marks.
+Hint: You may be able to create large enough files on /tmp so that different offsets within the file are
+sufficiently far apart to observe seek time delays. Also, be careful not to be affected by any read-ahead
+or buffering used in typical disks.
+Important Note on Grading
+Grading depends on a combination of correct experiment design, correct implementation, documentation
+of code, providing details of experiments and presenting results in an informative manner, analysis of
+results, and drawing correct conclusion from experimental results.
+Submission
+ Submit on elearn tar file of your code and experimental results in elearn. You should have a
+README file explaining the contents of file.
+ Submit on elearn a document explaining the experimental design, presenting results, and drawing
+the appropriate conclusion.
+ Ensure your name and login name appear in each file you submit.
